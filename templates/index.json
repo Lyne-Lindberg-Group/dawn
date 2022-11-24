@@ -20,9 +20,9 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop now",
+            "button_label_1": "SHOP NOW",
             "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -48,40 +48,19 @@
         "show_text_below": false
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
     "collage": {
       "type": "collage",
       "blocks": {
-        "collection-0": {
-          "type": "collection",
+        "97fd3cd8-e28f-4efd-aba3-286beba1f7e3": {
+          "type": "image",
           "settings": {
-            "collection": ""
+            "image_padding": false
+          }
+        },
+        "58034a89-9581-4784-8462-84bda14f4965": {
+          "type": "image",
+          "settings": {
+            "image_padding": false
           }
         },
         "product": {
@@ -90,41 +69,38 @@
             "product": "",
             "second_image": false
           }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
         }
       },
       "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
+        "97fd3cd8-e28f-4efd-aba3-286beba1f7e3",
+        "58034a89-9581-4784-8462-84bda14f4965",
+        "product"
       ],
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "THE FOURTH OF MAY T-SHIRT",
         "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
         "card_styles": "product-card-wrapper",
         "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
-    "video": {
-      "type": "video",
+    "96901cf5-2d79-49f1-b0cd-e5366e0f6b92": {
+      "type": "image-banner",
       "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
+        "image": "shopify:\/\/shop_images\/Frame_75.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
         "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "multicolumn": {
@@ -133,8 +109,8 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "THE STORIE BEHIND",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut semper scelerisque leo, at fermentum orci viverra eget. Nam sollicitudin varius elit. Vestibulum et tristique tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras iaculis nisl augue, ac rutrum diam congue varius. Vivamus vitae eros nunc. Aliquam varius rutrum ante, in efficitur sem posuere ut. Morbi orci risus, feugiat ultricies sapien vel, convallis egestas lacus. Donec sollicitudin arcu nulla, sed molestie odio aliquam in. Quisque vestibulum tincidunt ornare. Maecenas nunc felis, finibus sit amet magna eget, commodo malesuada tortor. Aenean laoreet augue id odio fermentum ullamcorper. Maecenas finibus justo quis massa eleifend, vitae rhoncus libero blandit. Phasellus et neque viverra, porta elit ac, feugiat risus. Etiam vehicula velit ut quam maximus laoreet.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -149,23 +125,22 @@
         "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "center",
+        "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection",
     "collage",
-    "video",
+    "96901cf5-2d79-49f1-b0cd-e5366e0f6b92",
     "multicolumn"
   ]
 }
